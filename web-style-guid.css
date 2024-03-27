@@ -1,0 +1,65 @@
+/*page header*/
+
+header {
+    text-align: center;
+}
+
+/*Main section of the page*/
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* all the three secrions of the main*/
+section {
+    margin-bottom: 30px;
+}
+
+/* secrion one*/
+.section1 {
+    text-align: center;
+    border: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.section1 .color {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid green;
+   
+}
+
+.section1 .blue {
+    background-color: blue;
+}
+
+.section1 .green {
+    background-color: green;
+}
+
+.section1 .red {
+    background-color: red;
+}
+
+.section1 .pink {
+    background-color: pink;
+}
+
+/* secrio  two*/
+.section2 {
+    border: 1px solid black;
+}
+.section2 .source {
+    display: inline-block;
+    width: 400px;  
+}
+
+/* section three*/
+.section3 {
+    border: 1px solid black
+}
+
+/* rule for section 2 and section 3*/
+.section2 , .section3 {
+    padding-left: 15px;
+}
